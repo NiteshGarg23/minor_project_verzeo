@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-image: url('images/bg3.jpg');
+    background-size: cover;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    font-family: "gotham", helvetica;
+    /*
+    background-color: peachpuff;
+    */
+    margin-bottom: 5px;
+    border-bottom: 10px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.logo_img{
+    height: 70px;
+    width: 400px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    display: inline-flex;
+    padding: 20px;
+    padding-top: 25px;
+    color:white;
+}
+
+.active{
+    background-color: white;
+}
+
+.content{
+    display:flex;
+    position: absolute;
+    top: 183px;
+    bottom: 0px;
+    width: 100%;
+    flex-direction: row;
+    font-family: system-ui;
+}
+
+.side{
+    flex: 1;
+    margin: 0px 10px 20px 20px;
+    height: fit-content;
+    background-color: rgba(255, 239, 239,0.7);
+}
+
+.main{
+    flex: 2.5;
+    display: flex;
+    height: fit-content;
+}
+
+.left{
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0px 10px 20px 10px;
+}
+
+.right{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0px 20px 20px 10px;
+    background-color: rgba(255, 239, 239,0.7);
+}
+
+.side_img{
+    width: 100%;
+    padding: 20px;
+}
+
+.left_img{
+    width: 100%;
+    padding: 20px;
+}
+
+.right_img{
+    width: 100%;
+    padding: 20px;
+}
+
+.desc{
+    margin-left: 20px;
+}
+
+.side_card, .left_card, .right_card{
+    padding-bottom: 20px;
+    border-bottom: 8px solid white;
+}
+
+.left_card{
+    background-color: rgba(255, 239, 239,0.7);
+}
+
+.desc{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.desc:hover{
+    text-decoration: underline;
+}
+
+.up{
+    display:flex;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255,0.7);
+}
+
+#back2Top{
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#back2Top:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.above{
+    font-size: 19px;
+    margin-top: 20px;
+}
